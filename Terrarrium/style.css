@@ -7,6 +7,29 @@ body {
 	font-family: helvetica, arial, sans-serif;
 }
 
+.popUp {
+	background-color: pink;
+	position: absolute;
+	left: 44%;
+	bottom: 70%;
+	border-radius: 1rem;
+	border-style: none;
+	padding: 20px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+	 Geneva, Verdana, sans-serif;
+	box-shadow: 0 9px #7da7b4;
+}
+
+.popUp:hover {
+	background-color: rgb(233, 152, 179);
+}
+
+.popUp:active {
+	background-color: pink;
+	box-shadow: 0 5px #3b474d;
+	transform: translateY(4px);
+  }
+
 .container {
     background-color: #eee;
 	width: 15%;

@@ -46,10 +46,12 @@ function dragElement(terrariumElement) {
         document.onpointermove = null;
     }
 
+
+    document.getElementById("terrarium").style.display = "none";
+        document.getElementById("left-container").style.display = "none";
+        document.getElementById("right-container").style.display = "none";
+
     
-
-
-
-
 }
+
 

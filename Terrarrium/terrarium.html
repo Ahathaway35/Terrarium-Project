@@ -11,6 +11,9 @@
 <body>
 
     <h1 style="color: olive">My Terrarium</h1>
+
+    <button type=button class="popUp" id="button" onclick="clickPopup()">Click here to begin!</button>
+
     <div>
         <div id="left-container" class="container">
             <div class="plant-holder">
@@ -71,6 +74,18 @@
         </div>
 
     </div>
+
+   <script>
+    function clickPopup() {
+        document.getElementById("button").innerHTML = 
+        document.getElementById("terrarium").style.display = null;
+        document.getElementById("left-container").style.display = null;
+        document.getElementById("right-container").style.display = null;
+        document.getElementById("button").style.display = "none";
+        }
+
+   </script>
+    
 </body>
 
 
